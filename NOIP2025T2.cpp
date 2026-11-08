@@ -15,8 +15,8 @@ int C(int x,int y){
 	return c[x][y];
 }
 signed main(){
-//	freopen("sale.in","r",stdin);
-//	freopen("sale.out","w",stdout);
+	freopen("sale.in","r",stdin);
+	freopen("sale.out","w",stdout);
 	ios::sync_with_stdio(0);
 	cin.tie(0),cout.tie(0);
 	cin>>cid>>t;

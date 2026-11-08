@@ -12,8 +12,12 @@ int main(){
 		}
 		if(i>=m){
 			ans=min(ans,cnt);
-			cout<<cnt<<' '<<ans<<endl; 
+			//cout<<cnt<<' '<<ans<<endl; 
 		}
 	}
+	if(m==0){
+		cout<<0;
+		return 0;
+	} 
 	cout<<ans;
 } 
